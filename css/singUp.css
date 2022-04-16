@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+button,
+input,
+a,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  list-style: none;
+  color: inherit;
+}
+a:hover {
+  color: none;
+  text-decoration: none;
+}
+input {
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+}
+input::placeholder {
+  color: #3c3c3c;
+}
+.sing__up {
+  max-width: 535px;
+  border-radius: 10px;
+  border: 1px solid #dadce0;
+  margin: 100px auto;
+  padding: 20px 30px;
+}
+.userName {
+  width: 100%;
+  padding: 10px 10px;
+  font-size: 17px;
+}
+.userPass {
+  width: 100%;
+  padding: 10px 10px;
+  font-size: 17px;
+  margin-top: 20px;
+}
+.showPass {
+  margin-top: 20px;
+}
+.next {
+  background: #366be8;
+  color: #fff;
+  border-radius: 3px;
+  padding: 8px 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+p {
+  font-size: 13px;
+}
+.login {
+  background: none;
+  color: #366be8;
+  cursor: pointer;
+  margin-right: 40px;
+}
+.error {
+  border: 1px solid red;
+}
+.error__text {
+  color: red;
+}

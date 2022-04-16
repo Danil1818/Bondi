@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+button,
+input,
+a,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  list-style: none;
+  color: inherit;
+}
+button,
+button:active,
+button:focus {
+  outline: none;
+}
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+input {
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+}
+input::placeholder {
+  color: #3c3c3c;
+}
+/* LoginContent */
+.login {
+  max-width: 535px;
+  border-radius: 10px;
+  border: 1px solid #dadce0;
+  margin: 50px auto;
+  padding: 60px 50px;
+}
+.login__title {
+  font-weight: 400;
+  font-size: 30px;
+}
+.name {
+  max-width: 100%;
+  padding: 5px 15px;
+}
+.surname {
+  max-width: 100%;
+  padding: 5px 15px;
+}
+.email {
+  width: 100%;
+  margin-top: 30px;
+  padding: 5px 15px;
+}
+.gmail {
+  position: absolute;
+  top: 225px;
+  right: 360px;
+}
+.email__subtitle {
+  font-size: 13px;
+}
+.input__pass-1 {
+  max-width: 100%;
+  padding: 5px 15px;
+}
+.input__pass-2 {
+  max-width: 100%;
+  padding: 5px 15px;
+}
+.pass__title {
+  font-size: 13px;
+}
+.show__pass {
+  margin-bottom: 20px;
+}
+.login__btn {
+  background: none;
+  color: dodgerblue;
+  margin-right: 50px;
+}
+.next {
+  background: #366BE8;
+  color: #fff;
+  border-radius: 3px;
+  padding: 5px 30px;
+}
+.error {
+  border: 1px solid red;
+}
+.text__error {
+  color: red;
+}
+.gender__title {
+  margin-bottom: 10px; 
+}
+.gender {
+  margin-bottom: 20px;
+}
